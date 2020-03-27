@@ -19,8 +19,8 @@ beyonce.get_married("Jay-Z")
 puts beyonce.name
 
 class PartnerError < StandardError
-end
-def message ""
+ def message "you must give the get_married method an argument of an instance of the person class"
+ end
 end
 
 beyonce = Person.new("Beyonce")
